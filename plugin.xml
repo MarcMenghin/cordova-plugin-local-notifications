@@ -240,7 +240,7 @@
         <framework src="src/windows/lib.UW/ARM/Microsoft.Toolkit.Uwp.Notifications.dll" target-dir="ARM" arch="ARM" custom="true"/> -->
 
         <framework src="src/windows/LocalNotificationProxy/LocalNotificationProxy/LocalNotificationProxy.csproj" custom="true" type="projectReference"/>
-        <framework src="src/windows/lib/Microsoft.Toolkit.Uwp.Notifications.winmd" custom="true" />
+        <framework src="src/windows/lib/Microsoft.Toolkit.Uwp.Notifications.dll" custom="true" />
         <framework src="src/windows/lib/System.ValueTuple.dll" custom="true" />
          
         <js-module src="src/windows/LocalNotificationProxy.js" name="LocalNotification.Proxy" >
